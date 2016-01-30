@@ -23,8 +23,8 @@
 // as the current DHT reading algorithm adjusts itself to work on faster procs.
 //DHT dht(DHTPIN, DHTTYPE);
 
-int baselineTempF = 63;
-int maxTempF = 73;
+int baselineTempF = 65;
+int maxTempF = 75;
 int ledCount = 10;
 int ledPins[] = {4,5,6,7,8,9,10,11,12,13};
 int alarmPin = 2;
